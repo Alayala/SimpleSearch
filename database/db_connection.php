@@ -12,10 +12,10 @@ class DbConnection
 	public function __construct()
 	{
 		
-		$this->db_host = "localhost";
-		$this->db_name = "books_search";
-		$this->db_user = "root";
-		$this->user_password = "Cristinaroot31.";
+		$this->db_host = "";
+		$this->db_name = "";
+		$this->db_user = "";
+		$this->user_password = "";
 
 		$this->connect();
 	}
